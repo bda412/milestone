@@ -1,3 +1,11 @@
+/*****NEITHAN FONT*****/
+@font-face {
+  font-family: 'Neithan';
+  src: url('Neithan.eot'); /* IE9 Compat Modes */
+  src:   url('Neithan.woff2') format('woff2'), /* Super Modern Browsers */ url('Neithan.woff') format('woff'), /* Pretty Modern Browsers */
+    url('Neithan.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
 /*****BASE STYLES*****/
 body {
   font-family: 'Josefin Sans', sans-serif;
@@ -42,22 +50,45 @@ nav ul li{
 nav ul li a{
     text-transform: uppercase;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: lighter;
+    font-size: 21px;
     color: #5b8583;
     padding-left: 80px;
 }
 header h2{
     width: 1000px;
     clear: both;
-    font-family: 'Merriweather', serif;
-    font-size: 65px;
-    line-height: 80px;
-    color: #6b6b6b;
-    padding: 30px 0;
+    font-family: 'Neithan';
+    font-weight: normal;
+    font-size: 90px;
+    line-height: 100px;
+    color: #000000;
+    padding: 55px 0;
 }
-header h2 span{
-  color: #cf6184;
+
+header .font1{
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    color: #5c5c5c; 
+    font-weight: normal;
+    display: block;
+    line-height:70px;
+    padding-top: 0px;
+}
+header .bold{
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    color: #5c5c5c; 
+    font-weight: bold;
+    display: block;
+    line-height: 70px;
+}
+header .pink{
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    color: #cf6184;
+    display: block;
+    line-height: 70px;
 }
 
 /*****ABOUT*****/
@@ -70,14 +101,16 @@ header h2 span{
   font-size: 28px;
 }
 #about p{
-  font-size: 24px;
+  font-size: 22px;
   color: #7f7f7f;
-  line-height: 40px;
+  line-height: 45px;
   padding-right: 50px;
+}
+
 }
 #mee-pic{
   margin: 30px 30px 0 0;
-  padding-left: 50px;
+  padding-left: 15px;
 }
 
 /*****WORK*****/
@@ -92,7 +125,7 @@ header h2 span{
     padding-bottom: 30px;
 }
 #work h3 {
-    font-size: 24px;
+    font-size: 28px;
     width: 190px;
     margin: 0 auto;
 }
